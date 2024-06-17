@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat; /* No repeat needed as fixed covers */
   font-family: 'Poppins', sans-serif;
   animation: gradient 5s ease infinite;
+  overflow: auto;
 }
 
 @keyframes gradient {
@@ -31,6 +32,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .container-fluid {
   width: 100%;
